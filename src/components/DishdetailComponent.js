@@ -1,21 +1,12 @@
 import React, { Component } from 'react';
-
-
 import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
 
-
 class Dishdetail extends Component{
-
     constructor(props){
         super(props);
-
-
-        this.state = {
-            
-        }
-        
+        this.state = {    
+        }      
     }
-
     renderComments(comments){
         if(comments == null){
             return(<div></div>);
@@ -23,8 +14,9 @@ class Dishdetail extends Component{
         const cmnts = comments.map((comment)=>{
             return (
                 <li key={comment.id}>
-                    <p>{comment.comment}</p>
-                    <p>{comment.author}</p>
+                    <p>"{comment.comment}"</p>                  
+                    <p>@{comment.author}</p>
+
                 </li>
             )
         })
@@ -55,11 +47,6 @@ class Dishdetail extends Component{
             return(<div></div>)
         }
     }
-
-
-
-
-
 render(){
     const dish = this.props.dish;
     if(dish == null){
@@ -75,7 +62,5 @@ render(){
         </div>
     );
 }
-
 }
-
 export default Dishdetail;

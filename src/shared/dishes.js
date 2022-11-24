@@ -2,185 +2,102 @@ export const DISHES =
     [
         {
         id: 0,
-        name:'Uthappizza',
-        image: 'https://raw.githubusercontent.com/kambleaa007/ReactCoursera/master/one/confusion/public/assets/images/uthappizza.png',
+        name:'Vadapav',
+        image: 'https://th.bing.com/th/id/OIP.G7spOLMvPORA3c_288fE-QHaE3?w=272&h=180&c=7&r=0&o=5&dpr=1.29&pid=1.7',
         category: 'mains',
         label:'Hot',
-        price:'4.99',
-        description:'A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.',
+        price:'10',
+        description:'Famous all over Maharashtra ',
         comments: [
             {
             id: 0,
             rating: 5,
-            comment: "Imagine all the eatables, living in conFusion!",
-            author: "John Lemon",
+            comment: "Very Hot!, but tasty ",
+            author: "Kamin",
             date: "2012-10-16T17:57:28.556094Z"
             },
             {
             id: 1,
-            rating: 4,
-            comment: "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
-            author: "Paul McVites",
-            date: "2014-09-05T17:57:28.556094Z"
-            },
-            {
-            id: 2,
-            rating: 3,
-            comment: "Eat it, just eat it!",
-            author: "Michael Jaikishan",
-            date: "2015-02-13T17:57:28.556094Z"
-            },
-            {
-            id: 3,
-            rating: 4,
-            comment: "Ultimate, Reaching for the stars!",
-            author: "Ringo Starry",
-            date: "2013-12-02T17:57:28.556094Z"
-            },
-            {
-            id: 4,
             rating: 2,
-            comment: "It's your birthday, we're gonna party!",
-            author: "25 Cent",
-            date: "2011-12-02T17:57:28.556094Z"
+            comment: "Too hot",
+            author: "Korea",
+            date: "2014-09-05T17:57:28.556094Z"
             }
+            
         ]                        },
         {
         id: 1,
-        name:'Zucchipakoda',
-        image: 'https://raw.githubusercontent.com/kambleaa007/ReactCoursera/master/one/confusion/public/assets/images/zucchipakoda.png',
+        name:'Samosa',
+        image: 'https://static.toiimg.com/thumb/61050397.cms?imgsize=246859&width=800&height=800',
         category: 'appetizer',
-        label:'',
-        price:'1.99',
-        description:'Deep fried Zucchini coated with mildly spiced Chickpea flour batter accompanied with a sweet-tangy tamarind sauce',
+        label:'Hot',
+        price:'12',
+        description:'Fried in oil with potato inside',
         comments: [
             {
             id: 0,
             rating: 5,
-            comment: "Imagine all the eatables, living in conFusion!",
-            author: "John Lemon",
+            comment: "mast",
+            author: "Vicky",
             date: "2012-10-16T17:57:28.556094Z"
             },
             {
             id: 1,
             rating: 4,
-            comment: "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
-            author: "Paul McVites",
+            comment: "Very tasty",
+            author: "Chotu",
             date: "2014-09-05T17:57:28.556094Z"
-            },
-            {
-            id: 2,
-            rating: 3,
-            comment: "Eat it, just eat it!",
-            author: "Michael Jaikishan",
-            date: "2015-02-13T17:57:28.556094Z"
-            },
-            {
-            id: 3,
-            rating: 4,
-            comment: "Ultimate, Reaching for the stars!",
-            author: "Ringo Starry",
-            date: "2013-12-02T17:57:28.556094Z"
-            },
-            {
-            id: 4,
-            rating: 2,
-            comment: "It's your birthday, we're gonna party!",
-            author: "25 Cent",
-            date: "2011-12-02T17:57:28.556094Z"
-            }
+            }        
         ]
         },
         {
         id: 2,
-        name:'Vadonut',
-        image: 'https://raw.githubusercontent.com/kambleaa007/ReactCoursera/master/one/confusion/public/assets/images/vadonut.png',
-        category: 'appetizer',
-        label:'New',
-        price:'1.99',
-        description:'A quintessential ConFusion experience, is it a vada or is it a donut?',
+        name:'Gulab Jamun',
+        image: 'https://th.bing.com/th/id/OIP.w29NJWSo9OdrcJIaBh6IDQHaD-?w=319&h=180&c=7&r=0&o=5&dpr=1.29&pid=1.7',
+        category: 'Sweets',
+        label:'traditional',
+        price:'5',
+        description:'It is tooo much refreshing',
         comments: [
             {
             id: 0,
             rating: 5,
-            comment: "Imagine all the eatables, living in conFusion!",
-            author: "John Lemon",
+            comment: "Tooo much sweety",
+            author: "Varun",
             date: "2012-10-16T17:57:28.556094Z"
             },
             {
             id: 1,
             rating: 4,
-            comment: "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
-            author: "Paul McVites",
+            comment: "Very pleasure giving",
+            author: "Abrar",
             date: "2014-09-05T17:57:28.556094Z"
-            },
-            {
-            id: 2,
-            rating: 3,
-            comment: "Eat it, just eat it!",
-            author: "Michael Jaikishan",
-            date: "2015-02-13T17:57:28.556094Z"
-            },
-            {
-            id: 3,
-            rating: 4,
-            comment: "Ultimate, Reaching for the stars!",
-            author: "Ringo Starry",
-            date: "2013-12-02T17:57:28.556094Z"
-            },
-            {
-            id: 4,
-            rating: 2,
-            comment: "It's your birthday, we're gonna party!",
-            author: "25 Cent",
-            date: "2011-12-02T17:57:28.556094Z"
             }
         ]
         },
         {
         id: 3,
-        name:'ElaiCheese Cake',
-        image: 'https://raw.githubusercontent.com/kambleaa007/ReactCoursera/master/one/confusion/public/assets/images/elaicheesecake.png',
-        category: 'dessert',
+        name:'Bhel',
+        image: 'https://th.bing.com/th/id/OIP.MJjZpm1GDOn1HO6awPfi3gHaEo?w=300&h=187&c=7&r=0&o=5&dpr=1.29&pid=1.7',
+        category: 'Hot',
         label:'',
-        price:'2.99',
-        description:'A delectable, semi-sweet New York Style Cheese Cake, with Graham cracker crust and spiced with Indian cardamoms',
+        price:'20',
+        description:'A mixtue of Chirmure and tamrind juice, with other ingredients',
         comments: [
             {
             id: 0,
             rating: 5,
-            comment: "Imagine all the eatables, living in conFusion!",
-            author: "John Lemon",
+            comment: "Quite amazing",
+            author: "Rahul",
             date: "2012-10-16T17:57:28.556094Z"
             },
             {
             id: 1,
             rating: 4,
-            comment: "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
-            author: "Paul McVites",
+            comment: "Bhook mardegi bhai",
+            author: "Parth",
             date: "2014-09-05T17:57:28.556094Z"
-            },
-            {
-            id: 2,
-            rating: 3,
-            comment: "Eat it, just eat it!",
-            author: "Michael Jaikishan",
-            date: "2015-02-13T17:57:28.556094Z"
-            },
-            {
-            id: 3,
-            rating: 4,
-            comment: "Ultimate, Reaching for the stars!",
-            author: "Ringo Starry",
-            date: "2013-12-02T17:57:28.556094Z"
-            },
-            {
-            id: 4,
-            rating: 2,
-            comment: "It's your birthday, we're gonna party!",
-            author: "25 Cent",
-            date: "2011-12-02T17:57:28.556094Z"
-            }
+            }                   
         ]
         }
     ];

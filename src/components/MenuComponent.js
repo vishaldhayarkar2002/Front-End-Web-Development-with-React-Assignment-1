@@ -1,16 +1,11 @@
 import React, { Component } from 'react';
-
-
 import { Card, CardImg, CardImgOverlay, CardTitle } from 'reactstrap';
 import Dishdetail from './DishdetailComponent'
-
 
 class Menu extends Component {
 
     constructor(props){
         super(props);
-
-
         this.state = {
             selectedDish : null
         }
